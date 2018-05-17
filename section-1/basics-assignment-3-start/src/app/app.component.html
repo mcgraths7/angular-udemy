@@ -10,8 +10,13 @@
       </ol>
 
       <hr>
-      <button class="btn btn-primary">Show details</button>
-      <p>Secret Password: tunafish</p>
+      <button class="btn btn-primary" (click)="toggleContent(); addClick()">Show details</button>
+      <p *ngIf="contentHidden === false">Secret Password: tunafish</p>
+      <div 
+        *ngFor="let click of clicks; let i = index"
+        [ngStyle]="{color: i % 2 === 0 ? 'white' : 'black'}"
+        [ngClass]="{blue: i % 2 === 0}"> {{ click}} 
+      </div>
     </div>
   </div>
 </div>
