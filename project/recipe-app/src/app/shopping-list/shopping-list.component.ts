@@ -16,7 +16,7 @@ export class ShoppingListComponent implements OnInit {
       new Ingredient('Garlic', 'loose', 6),
       new Ingredient('Tortillas', 'loose', 6),
       new Ingredient('Eggs', 'dozen', 1),
-      new Ingredient('Chicken Sausage', 'pound(s)' 2),
+      new Ingredient('Chicken Sausage', 'pound(s)', 2),
       new Ingredient('Cheddar Cheese', 'pound(s)', 1),
   ];
 
