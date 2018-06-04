@@ -22,11 +22,8 @@ import { HeaderComponent } from './header/header.component';
     RecipeItemComponent,
     HeaderComponent
   ],
-  imports: [
-    BrowserModule,
-    FormsModule
-  ],
+  imports: [BrowserModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}
